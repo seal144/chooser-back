@@ -1,6 +1,6 @@
 import { Response } from 'express'
 
-export const respondNotFound = (res: Respond): void => {
+export const respondNotFound = (res: Response): void => {
   res.status(404);
   res.send('Not found') 
 }
